@@ -1,11 +1,7 @@
-"""
-Итоговые модели для системы фильтрации
-"""
 import typing as t
 from enum import Enum
 
 from pydantic import Field, field_validator, model_validator
-# from sqlmodel import SQLModel
 from model import Model
 
 class Op(Enum):

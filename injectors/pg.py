@@ -15,7 +15,7 @@ from base_module import (
     FastAPILoggerAdapter,
     PgConfig,
 )
-from models import BaseOrmModel
+from ..models import BaseOrmModel
 
 
 class AsyncPgConnectionInj:
